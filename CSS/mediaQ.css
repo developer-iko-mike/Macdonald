@@ -1,0 +1,857 @@
+@media only screen and (max-width: 1680px) {
+  .mobile {
+    width: 94.2vw;
+    grid-template-columns: 37% 58.3%;
+    padding: 0 4rem 0 12rem;
+    column-gap: 3.5rem;
+  }
+  .header_right_bottom_buttons button:last-child {
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 1420px) {
+  .mobile {
+    width: 99.5vw;
+    grid-template-columns: 37% 58.3%;
+    padding: 0 4rem 0 6rem;
+    column-gap: 4rem;
+  }
+  .SALE_OFF_header_title div {
+    top: 2.8rem;
+    left: 33rem;
+  }
+}
+@media only screen and (min-width: 1281px) {
+  .menu_icon {
+    display: none;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .menu_icon {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1395px) {
+  .header_left_delivery {
+    top: 3rem;
+    left: 32rem;
+  }
+  .main {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px 30px;
+  }
+  .SALE_OFF_header_title div {
+    top: 2.8rem;
+    left: 32.9rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .container {
+  }
+  nav {
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+  }
+
+  nav > .nav_ul {
+    margin-left: -80px;
+  }
+  .header_left_delivery {
+    top: 0rem;
+    left: 23rem;
+  }
+  .nav_menu_sidebar {
+    z-index: 1;
+  }
+  .header_right_top p {
+    font-size: 43px;
+    line-height: 3.7rem;
+  }
+  .header_right_top span {
+    font-size: 0.9rem;
+    max-width: 354px;
+    margin-top: 1.5rem;
+  }
+  .nav_menu_sidebar li a {
+    font-size: 1.6rem;
+  }
+  .nav_menu_sidebar li:first-child a {
+    font-weight: 900;
+  }
+  .header_right_bottom_buttons {
+    column-gap: 33px;
+  }
+  .header_right_bottom_buttons button:last-child {
+    font-size: 1.2rem;
+  }
+  .main {
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 45px 55px;
+  }
+  .sale_off_item1_left__head span:last-child {
+    width: 18rem;
+  }
+  .sale_off_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 45px 2.5rem;
+  }
+  .sale_off_item1:hover {
+    /* transform: scaley(1.2); */
+    transform: scale(1.05, 1.1);
+    background-color: var(--rd2);
+  }
+  .sale_off_item2:hover {
+    transform: scale(1.2, 1.2);
+  }
+
+  #combo__funny {
+    width: 10rem;
+    height: 10rem;
+    top: 7rem;
+  }
+
+  #salad {
+    width: 11rem;
+    height: 11.5rem;
+    top: 6.5rem;
+  }
+  .sale_off_item2_left__order {
+    margin-top: 1.6rem;
+  }
+  #chickenBarger {
+    width: 10rem;
+    height: 9.5rem;
+    top: 7rem;
+  }
+  .sale_off_item3_left__header h2 {
+    /* max-width: 20rem; */
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+  .sale_off_item3_left__header {
+    margin-top: 1rem;
+  }
+  .off_price_item__1 div {
+    margin-top: 0rem;
+  }
+  .off_price_item__2 div {
+    margin-top: 2.2rem;
+  }
+  .off_price_item__2 div del {
+    margin-top: 0px;
+  }
+  .off_price_item__3 div {
+    margin-top: 1.2rem;
+  }
+  .off_price_item__3 div del {
+    margin-top: 0px;
+  }
+  .sale_off_item3_left__order {
+    margin-top: 1.5rem;
+  }
+  .mobile {
+    grid-template-columns: 48% 49.5%;
+    padding: 0 1rem 0 0.8rem;
+    column-gap: 1.5rem;
+  }
+  .mobile_left {
+    max-width: 29rem;
+    min-width: 17rem;
+    width: 28rem;
+    max-height: 29rem;
+    min-height: 17rem;
+    height: 28.21rem;
+  }
+  .mobile_right {
+    gap: 2rem;
+    padding: 4.5rem 0;
+  }
+  .mobile_right__top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .mobile_right__top h1 {
+    font-size: 37px;
+    font-weight: 700;
+  }
+  .mobile_right__bottom {
+    margin-top: 1rem;
+    display: flex;
+    column-gap: 5rem;
+  }
+  .search__footer {
+    width: 75%;
+  }
+  #LastSalad {
+    top: 9.5rem;
+    left: 0rem;
+    width: 8rem;
+    height: 6rem;
+  }
+  #LastBurger {
+    left: 11rem;
+    bottom: 0rem;
+    width: 12rem;
+    height: 5rem;
+  }
+  .footer_continer {
+    padding: 2rem 6rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .SALE_OFF_header_title div {
+    left: 23.9rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container {
+  }
+  .sale_off_item1:hover {
+    transform: scale(1.1);
+  }
+
+  nav > .nav_ul {
+    display: none;
+  }
+
+  nav .nav_ul {
+    display: none;
+  }
+  nav {
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+  }
+  #nav_child_image {
+    display: block;
+  }
+  .header_content {
+    margin-top: 4rem;
+  }
+  .header_left_delivery {
+    padding: 0.5rem 1rem;
+    top: 0;
+    left: 20rem;
+  }
+
+  .header_left_delivery > span {
+    font-size: 0.9rem;
+    top: 13px;
+    left: 19.5rem;
+  }
+
+  .header_left_delivery__firstD span {
+    font-size: 1.2rem;
+  }
+  .header_right_bottom_buttons {
+    grid-template-columns: 132px 118px;
+  }
+
+  .header_right_bottom_buttons button:first-child {
+    width: 8.8rem;
+  }
+  .header_right_bottom_buttons button:last-child {
+    width: 173%;
+    height: 59px;
+  }
+  .header_right_bottom_buttons button:last-child img {
+    height: 100%;
+  }
+  #combo__funny {
+    width: 10rem;
+    height: 10rem;
+    top: 7rem;
+  }
+
+  #salad {
+    width: 11rem;
+    height: 11.5rem;
+    top: 6.5rem;
+  }
+  #chickenBarger {
+    width: 9rem;
+    height: 9rem;
+    top: 7.5rem;
+  }
+  .sale_off_item1_left__header h2 {
+    font-size: 2rem;
+  }
+  .sale_off_items {
+    gap: 45px 1rem;
+  }
+  #salad {
+    width: 10rem;
+    height: 10rem;
+    top: 7rem;
+  }
+  .sale_off_item3_left__header h2 {
+    font-size: 1.8rem;
+    margin-top: -0.7rem;
+  }
+  .sale_off_item3_left__info p {
+    margin-bottom: 29px;
+  }
+  .mobile {
+    padding: 0 6rem 0 0.8rem;
+    height: 49rem;
+    width: 91vw;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-x: hidden;
+  }
+  .mobile_left {
+    width: 26.5rem;
+    /* min-width: 26rem; */
+    /* max-width: 26rem; */
+    height: 24rem;
+    /* min-height: 24.21rem; */
+    /* max-height: 24.21rem; */
+    margin-bottom: -0.7rem;
+  }
+  .mobile_left img {
+    transform: none;
+  }
+  .mobile_right {
+    padding: 2.5rem 0 2.5rem 65px;
+  }
+  .mobile_right__top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .mobile_right__top h1 {
+    font-size: 37px;
+    font-weight: 700;
+  }
+  .mobile_right__bottom {
+    margin-top: 1rem;
+    display: flex;
+    column-gap: 2rem;
+  }
+  .search__header h1 {
+    font-size: 42px;
+    font-weight: 500;
+    color: var(--weyw);
+  }
+  .footer_continer {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .footer_macdonald_icons {
+    order: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 1rem auto 1.5rem auto;
+  }
+  .SALE_OFF_header_title div {
+    left: 21.3rem;
+  }
+}
+@media only screen and (max-width: 906px) {
+  .sale_off_items {
+    gap: 0 0.5rem;
+  }
+
+  .sale_off_item1:hover {
+    z-index: 2;
+    transform: scale(1.1, 1.1);
+  }
+  .sale_off_item3_left__header {
+    margin-top: 0.35rem;
+  }
+  #combo__funny {
+    width: 12rem;
+    height: 11rem;
+    top: 5rem;
+  }
+
+  #salad {
+    width: 11rem;
+    height: 12rem;
+    top: 5.5rem;
+  }
+  #chickenBarger {
+    width: 11rem;
+    height: 10.5rem;
+    top: 6.5rem;
+  }
+  .sale_off_items {
+    gap: 2rem 2.5rem;
+    padding: 25px;
+  }
+  .sale_off_item3_left__order {
+    margin-top: 3rem;
+  }
+  .SALE_OFF_header_title div {
+    left: 17.1rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+  }
+  .header_content {
+    margin-top: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header_right {
+    text-align: center;
+  }
+  .header_right_top {
+    max-width: 100vw;
+  }
+  .header_right_top span {
+    max-width: 100vw;
+  }
+  .header_right_bottom_buttons__disktop {
+    display: none;
+  }
+  .header_right_bottom_buttons__mobile {
+    display: grid;
+    margin-top: 21px;
+    grid-template-columns: auto auto;
+  }
+  .header_right_bottom_buttons button:last-child {
+    width: 100%;
+    height: 59px;
+    font-size: 1rem;
+  }
+
+  .header_right_bottom_buttons button:last-child img {
+    height: 70%;
+  }
+
+  .header_right_bottom_buttons {
+    column-gap: 18px;
+  }
+  .header_right_bottom_buttons button:first-child {
+    width: 10rem;
+  }
+  .header_left_delivery {
+    padding: 0.5rem 0.2rem;
+    position: static;
+    width: 11rem;
+    border-radius: 50px 1px 50px 50px;
+    background-color: rgba(241, 241, 241, 0.6);
+  }
+  .header_right_bottom__title-desktop {
+    display: none;
+  }
+  .header_right_bottom__title-mobile {
+    display: block;
+  }
+  .header_right_bottom__title-mobile {
+    margin-top: 4rem;
+    text-align: center;
+  }
+  .header_right_bottom_buttons {
+    /* grid-template-columns: 18rem 17rem; */
+    grid-template-columns: 1fr 1fr;
+  }
+  .header_right_bottom_buttons button:first-child {
+    width: 9rem;
+    justify-self: center;
+    /* margin-left: 0rem; */
+  }
+  .header_right_bottom_buttons button:last-child {
+    width: 10.3rem;
+    height: 59px;
+    font-size: 1rem;
+    margin-left: -0.8rem;
+    justify-self: center;
+  }
+  #combo__funny {
+    width: 12rem;
+    height: 12rem;
+    top: 5rem;
+  }
+
+  #salad {
+    width: 11rem;
+    height: 12rem;
+    top: 5rem;
+  }
+  #chickenBarger {
+    width: 11rem;
+    height: 10rem;
+    top: 7rem;
+  }
+
+  .sale_off_item1 {
+    padding: 1.3rem 0 1.3rem 1rem;
+  }
+  .sale_off_item3_left__header h2 {
+    font-size: 1.7rem;
+    margin-top: 0rem;
+  }
+  .sale_off_items {
+    gap: 1.7rem 1.2rem;
+    padding: 0 15px;
+  }
+  .sale_off_item1_left__order {
+    margin-top: 3.5rem;
+  }
+  #combo__funny {
+    width: 9rem;
+    height: 9rem;
+    top: 6rem;
+  }
+
+  #salad {
+    width: 9rem;
+    height: 10rem;
+    top: 6rem;
+  }
+  .off_price_item__2 div {
+    margin-top: 1.8rem;
+  }
+  .sale_off_item1_left__order {
+    margin-top: 3.4rem;
+  }
+  #chickenBarger {
+    width: 10rem;
+    height: 9rem;
+    top: 7rem;
+  }
+  .sale_off_item3_left__order {
+    margin-top: 2.9rem;
+  }
+
+  .mobile {
+    padding: 6rem 3rem 0rem 3rem;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-x: hidden;
+    border-radius: 500px 500px 1px 1px;
+  }
+  .mobile_left {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 113px;
+    min-height: 24.21rem;
+    max-height: 24.21rem;
+    margin-bottom: -0.7rem;
+  }
+  .mobile_left img {
+    width: 72%;
+    object-fit: contain;
+  }
+  .mobile_right__top h1 {
+    font-size: 31px;
+    font-weight: 800;
+  }
+  .search__footer {
+    width: 75%;
+  }
+  #LastSalad {
+    top: 9.5rem;
+    left: 0rem;
+    width: 8rem;
+    height: 6rem;
+  }
+  #LastBurger {
+    left: 11rem;
+    bottom: 0rem;
+    width: 12rem;
+    height: 5rem;
+  }
+
+  .search {
+    height: 520px;
+  }
+  .search__footer {
+    width: 90%;
+  }
+  .search__header h1 {
+    font-size: 31px;
+    margin-bottom: 0.3rem;
+  }
+  #LastSalad {
+    top: 1.5rem;
+    left: 0rem;
+    width: 10rem;
+    height: 8rem;
+  }
+
+  #LastBurger {
+    left: 4rem;
+    bottom: 0rem;
+    width: 12rem;
+    height: 5rem;
+  }
+  .footer_continer {
+    padding: 2rem 0rem;
+  }
+  .SALE_OFF_header_title div {
+    left: 12.2rem;
+  }
+}
+@media only screen and (max-width: 607px) {
+  .sale_off_item1_left__head span:last-child {
+    width: 30rem;
+  }
+  .sale_off_item1:hover {
+    z-index: 2;
+    transform: scale(1.08, 1.1);
+  }
+  .sale_off_items {
+    gap: 3rem;
+    padding: 0 30px;
+  }
+  .sale_off_item1 {
+    padding: 2.3rem 0 1.5rem 1.5rem;
+  }
+  .sale_off_item1_left__header h2 {
+    font-size: 2.5rem;
+    max-width: 30rem;
+  }
+  .sale_off_item3_left__header h2 {
+    font-size: 2.5rem;
+  }
+  #combo__funny {
+    width: 12rem;
+    height: 12rem;
+    top: 5rem;
+  }
+  #salad {
+    width: 11rem;
+    height: 12rem;
+    top: 5rem;
+  }
+  #chickenBarger {
+    width: 10.5rem;
+    height: 10rem;
+    top: 7rem;
+  }
+
+  .sale_off_item1_left__order {
+    margin-top: 1.45rem;
+  }
+  .sale_off_item3_left__order {
+    margin-top: 2rem;
+  }
+  .sale_off_item2_left__order {
+    margin-top: 2.2rem;
+  }
+  .sale_off_item3_left__info p {
+    margin-bottom: -0.5rem;
+  }
+  .SALE_OFF_header_title div {
+    left: 11.2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+  }
+  .header_right_bottom_buttons {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 23px;
+  }
+  .header_right_bottom_buttons button:first-child {
+    width: 85vw;
+  }
+  .header_right_bottom_buttons button:last-child {
+    width: 85vw;
+    margin: 15px auto;
+  }
+  .header_right_bottom_buttons button:first-child span::after {
+    margin-left: 55px;
+  }
+  .header_right_bottom_buttons button:first-child span::before {
+    margin-right: 55px;
+  }
+  .mobile_right {
+    padding: 0;
+    text-align: center;
+  }
+  .mobile_left img {
+    width: 83%;
+    object-fit: contain;
+  }
+  .mobile_right__bottom {
+    margin: 4rem 0;
+    display: flex;
+    column-gap: 1rem;
+  }
+  .mobile_right__top h1 {
+    font-size: 37px;
+    font-weight: 900;
+  }
+  .mobile {
+    padding: 6rem 1.5rem 0rem 1.5rem;
+    width: 99vw;
+  }
+  .mobile_right__bottom {
+    margin: 4rem 0;
+    display: flex;
+    column-gap: 0;
+    justify-content: space-between;
+  }
+  .search__footer {
+    width: 99%;
+  }
+  .search__header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--weyw);
+  }
+  .search__header p {
+    color: var(--gy2);
+    max-width: 21rem;
+    margin: 0 auto;
+  }
+  #LastSalad {
+    top: 1.5rem;
+    left: 0rem;
+    width: 7rem;
+    height: 6rem;
+  }
+  #LastBurger {
+    right: 1rem;
+    left: auto;
+    bottom: 0rem;
+    width: 9rem;
+    height: 4rem;
+  }
+  .footer_first_ul {
+    margin-left: 0rem;
+  }
+  .footer_last_uls ul {
+    display: none;
+  }
+  .hidden_footer {
+    display: block;
+  }
+  .footer_last_ul {
+    padding: 0 30px 0 0;
+  }
+  .hidden_footer ul li:nth-child(odd) {
+    display: flex;
+    justify-content: start;
+    font-weight: 700;
+  }
+  .hidden_footer ul li:nth-child(even) {
+    display: flex;
+    justify-content: end;
+  }
+  .SALE_OFF_header_title div {
+    left: 7.6rem;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .sale_off_items {
+    padding: 0;
+  }
+  .sale_off_item1:hover {
+    transform: scale(1.04, 1.15);
+  }
+  .sale_off_item1_left__header h2 {
+    font-size: 2rem;
+  }
+  .sale_off_item3_left__header h2 {
+    font-size: 2rem;
+  }
+  .mobile {
+    padding: 6rem 0.3rem 0rem 0.3rem;
+    width: 99vw;
+    text-align: center;
+  }
+  .search__header h1 {
+    font-size: 31px;
+    font-weight: 500;
+    color: var(--weyw);
+  }
+  .search__footer input::placeholder {
+    font-size: 0.9rem;
+  }
+  .SALE_OFF_header_title div {
+    left: 4.8rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  nav .border__btn {
+    padding: 8px 1rem;
+    font-size: 15px;
+  }
+  nav .main__btn {
+    padding: 8px 1rem;
+    font-size: 15px;
+  }
+  .header_left_delivery {
+    width: 11rem;
+    margin-left: 100px;
+    border-radius: 1px 50px 50px 50px;
+  }
+  .sale_off_item1_left__header h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .sale_off_item3_left__header h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  #combo__funny {
+    width: 9rem;
+    height: 9rem;
+    top: 6rem;
+  }
+  #salad {
+    width: 9rem;
+    height: 10rem;
+    top: 5.3rem;
+  }
+  #chickenBarger {
+    width: 9rem;
+    height: 9rem;
+    top: 6.5rem;
+  }
+
+  .sale_off_item1_left__header h2 {
+    max-width: 18rem;
+    font-weight: 700;
+  }
+  .mobile_right__bottom {
+    display: flex;
+    column-gap: 0;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .mobile_right__bottom a img {
+    width: 75%;
+    object-fit: cover;
+  }
+  .mobile_left img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .footer_last_ul {
+    padding: 0 10px 0 0;
+  }
+  .SALE_OFF_header_title div {
+    left: 3rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .search__footer {
+    height: 8rem;
+  }
+  input {
+    width: 100%;
+  }
+  .search__footer button {
+    top: 4rem;
+    width: 80%;
+    right: 1.8rem;
+  }
+  .search__footer button:hover {
+    top: 4rem;
+    right: 2rem;
+  }
+  .SALE_OFF_header_title div {
+    left: 1.9rem;
+  }
+}
