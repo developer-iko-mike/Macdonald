@@ -2,4 +2,4 @@
 
 <img src="./Assets/preview.gif" alt="preview_macdonald_shop">
 
-<a href="#">view demo</a>
+<a href="https://developer-iko-mike.github.io/Macdonald">view demo</a>
